@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+@font-face {
+    font-family: Open-Dislexic;
+    src: url(open-dyslexic.ttf);
+  }
+  
 *{
     margin: 0;
     padding:0;
-    font-family: 'Open Sans';
+    font-family: 'Open-dislexic';
 }
 
 .contenedor{

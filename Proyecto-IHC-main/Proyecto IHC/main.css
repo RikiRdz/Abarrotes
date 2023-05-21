@@ -1,16 +1,19 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Anuphan:wght@700&display=swap');
+@font-face {
+  font-family: Open-Dislexic;
+  src: url(open-dyslexic.ttf);
+}
+
 
 body {
-    font-family: 'Comfortaa', cursive;
+    font-family: Open-Dislexic;
     margin: 0;
     padding: 0;
   }
 /*Encabezado*/
 header {
-  font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom right, #144ABA
-    , #1456ba);
+  font-family: Open-Dislexic;
+    background: linear-gradient(to bottom right, #1e3b8a
+    , #4051b5);
     color: #fff;
     position: relative;
     padding: 20px;
@@ -63,11 +66,11 @@ header {
 
   nav a, .Botones {
     display: block;
-    background-color: #F58813;
+    background-color: #ff9900;
     color: white;
     text-decoration: none;
     transition: 0.3s;
-    font-family: 'Roboto Slab', serif;
+    font-family: Open-Dislexic;
     font-weight: 600;
   }
 
@@ -76,8 +79,8 @@ header {
   }
 
   .Botones {
-    background: #F58813;
-    font-family: monospace;
+    background: #ff9900;
+    font-family: Open-Dislexic;
     display: flex;
     position: flex;
     justify-content: space-between;
@@ -128,7 +131,7 @@ header {
 
   .Vendido{
     margin-top: 20px;
-    font-family: 'Anton', sans-serif;
+    font-family: Open-Dislexic;
     text-align: center;
   }
   /*Cards*/
@@ -207,7 +210,7 @@ header {
 
   /*Categorias*/
     .h1cat{
-      font-family: 'Anton', sans-serif;
+      font-family: Open-Dislexic;
       text-align: center;
       padding: 20px;
   }
@@ -222,21 +225,21 @@ header {
   }
   .Categorias a{
     color: black;
-    font-family: 'Anton', sans-serif;
+    font-family: Open-Dislexic;
     text-decoration: none;
     font-size: 20px;
   }
   
 /* Sobre Nosotros */
   .Nosotros {
-    font-family: 'Anton', sans-serif;
+    font-family: Open-Dislexic;
     margin: 40px;
     box-shadow:0 0 10px #aaaaaa;
     border-radius: 15px;
     padding: 2%;
   }
   .Nosotros h2{
-    font-family: 'Roboto Slab', serif;
+    font-family: Open-Dislexic;
     font-weight: 600;
   }
   .Nosotros h5{
@@ -257,7 +260,7 @@ header {
   .pie-pagina {
       bottom: 0;
       width: 100%;
-      background: linear-gradient(to bottom right, #144ABA, #1456ba);
+      background: linear-gradient(to bottom right, #1e3b8a, #4051b5);
   }
   .pie-pagina .informacion-general {
           width: 100%;
